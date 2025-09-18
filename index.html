@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaOs Fensterservice Hamburg - Die 85%-Spar-Regel | 15.300€ sparen statt neue Fenster kaufen</title>
+    <meta name="description" content="Entdecke die 85%-Spar-Regel: Spare bis zu 15.300€ mit professionellen Dichtungsservices statt teurer neuer Fenster. Kostenloser Rechner & ehrliche Beratung in Hamburg.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'maos-blue': '#1E40AF',
+                        'maos-green': '#059669',
+                        'maos-orange': '#EA580C',
+                        'maos-red': '#DC2626',
+                        'hamburg-blue': '#0F4C81'
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-gray-50">
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-hamburg-blue via-blue-700 to-blue-900 text-white relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent transform -skew-y-6"></div>
+        </div>
+        
+        <div class="container mx-auto px-6 py-16 relative">
+            <!-- Alert Bar -->
+            <div class="bg-maos-red text-white text-center py-3 px-4 rounded-lg mb-8 animate-pulse">
+                <i class="fas fa-exclamation-triangle mr-2"></i>
+                <strong>ACHTUNG:</strong> 90% aller Hamburger Hausbesitzer zahlen 15.300€ zu viel für Fenster!
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Left Column -->
+                <div class="space-y-6">
+                    <div class="inline-flex items-center bg-maos-orange text-white px-4 py-2 rounded-full text-sm font-semibold">
+                        <i class="fas fa-map-marker-alt mr-2"></i>
+                        Jetzt auch in Hamburg verfügbar!
+                    </div>
+                    
+                    <h1 class="text-5xl lg:text-6xl font-black leading-tight">
+                        Die <span class="text-yellow-400">85%-Spar-Regel</span> für 
+                        <span class="text-green-400">Hamburg</span>
+                    </h1>
+                    
+                    <p class="text-xl lg:text-2xl font-light opacity-90">
+                        Warum 18.000€ für neue Fenster zahlen, wenn 2.700€ für professionelle Dichtungen 85% weniger kosten und das Gleiche erreichen?
+                    </p>
+                    
+                    <!-- Benefit Points -->
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <span class="text-lg">85% Kostenersparnis bei gleicher Energieeffizienz</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <span class="text-lg">Amortisation in nur 3 Jahren statt 30 Jahren</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <span class="text-lg">Speziell für Hamburger Altbauten entwickelt</span>
+                        </div>
+                    </div>
+                    
+                    <!-- CTA Button -->
+                    <div class="pt-6">
+                        <button onclick="scrollToCalculator()" class="bg-yellow-500 hover:bg-yellow-400 text-black px-8 py-4 rounded-lg text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                            <i class="fas fa-calculator mr-3"></i>
+                            Kostenlosen 85%-Rechner starten
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right Column - Video Placeholder -->
+                <div class="relative">
+                    <div class="bg-black rounded-xl overflow-hidden shadow-2xl">
+                        <div class="aspect-w-16 aspect-h-9 bg-gradient-to-br from-gray-800 to-black flex items-center justify-center">
+                            <div class="text-center text-white p-8">
+                                <div class="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <i class="fas fa-play text-3xl"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold mb-2">Die 85%-Wahrheit</h3>
+                                <p class="text-gray-300">"15.300€ Ersparnis aufgedeckt"</p>
+                                <div class="mt-4 text-sm text-gray-400">
+                                    <i class="fas fa-map-marker-alt mr-2"></i>Hamburg
+                                    <span class="mx-2">•</span>
+                                    <i class="fas fa-users mr-2"></i>Über 200 zufriedene Kunden
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section class="bg-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">
+                    Diese Hamburger Familien haben bereits <span class="text-maos-green">Tausende gespart</span>
+                </h2>
+                <p class="text-xl text-gray-600">Echte Kunden, echte Ersparnisse mit der 85%-Spar-Regel</p>
+            </div>
+
+            <!-- Testimonials Grid -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl border border-green-200">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold">
+                            FS
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-900">Familie Schmidt</h4>
+                            <p class="text-green-600 text-sm">Hamburg-Eimsbüttel</p>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="text-3xl text-green-600 font-bold mb-2">15.300€ gespart</div>
+                        <div class="text-sm text-gray-600">Neue Fenster: 18.000€ → MaOs Service: 2.700€</div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Die 85%-Regel hat unser Leben verändert! Endlich ehrliche Beratung in Hamburg!"
+                    </p>
+                    <div class="flex mt-4">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border border-blue-200">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">
+                            MW
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-900">Familie Weber</h4>
+                            <p class="text-blue-600 text-sm">Hamburg-Altona</p>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="text-3xl text-blue-600 font-bold mb-2">Schimmel gestoppt</div>
+                        <div class="text-sm text-gray-600">Gesunde Familie + 14.100€ gespart</div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Unsere Tochter hustet nicht mehr. Die Luftqualität in unserem Altbau ist perfekt seit der 85%-Lösung!"
+                    </p>
+                    <div class="flex mt-4">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl border border-purple-200">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold">
+                            EH
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-900">Ehepaar Hoffmann</h4>
+                            <p class="text-purple-600 text-sm">Hamburg-Harvestehude</p>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="text-3xl text-purple-600 font-bold mb-2">Rente gerettet</div>
+                        <div class="text-sm text-gray-600">16.650€ gespart durch ehrliche Beratung</div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Marcus hat uns vor einem finanziellen Desaster bewahrt. Gerade bei Hamburger Altbau-Preisen!"
+                    </p>
+                    <div class="flex mt-4">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 85% Calculator Section -->
+    <section id="calculator" class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl lg:text-5xl font-black mb-6">
+                    Der kostenlose <span class="text-yellow-400">85%-SPAR-RECHNER</span>
+                </h2>
+                <p class="text-xl text-gray-300">
+                    Finde heraus, wie viel du WIRKLICH für deine Hamburger Fenster zahlen solltest
+                </p>
+            </div>
+
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white text-gray-900 rounded-2xl p-8 shadow-2xl">
+                    <div class="grid lg:grid-cols-2 gap-8">
+                        <!-- Calculator Input -->
+                        <div class="space-y-6">
+                            <h3 class="text-2xl font-bold text-hamburg-blue mb-6">
+                                <i class="fas fa-calculator mr-3"></i>
+                                Berechne deine 85%-Ersparnis
+                            </h3>
+                            
+                            <div class="space-y-4">
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                                        Was sollen deine neuen Fenster kosten?
+                                    </label>
+                                    <div class="relative">
+                                        <input 
+                                            type="number" 
+                                            id="fensterPreis"
+                                            placeholder="z.B. 18000"
+                                            class="w-full px-4 py-3 border border-gray-300 rounded-lg text-lg focus:ring-2 focus:ring-hamburg-blue focus:border-transparent pr-12"
+                                        >
+                                        <span class="absolute right-3 top-3 text-gray-500 text-lg">€</span>
+                                    </div>
+                                </div>
+
+                                <button 
+                                    onclick="calculate85Percent()"
+                                    class="w-full bg-hamburg-blue hover:bg-blue-700 text-white px-6 py-4 rounded-lg text-lg font-bold transition-all duration-300 transform hover:scale-105"
+                                >
+                                    <i class="fas fa-magic mr-2"></i>
+                                    85%-Spar-Regel anwenden!
+                                </button>
+                            </div>
+
+                            <!-- Results -->
+                            <div id="results" class="hidden bg-gradient-to-r from-green-50 to-green-100 p-6 rounded-xl border border-green-200">
+                                <h4 class="text-xl font-bold text-green-800 mb-4">
+                                    <i class="fas fa-check-circle mr-2"></i>
+                                    Deine 85%-Ersparnis:
+                                </h4>
+                                <div class="space-y-2 text-green-700">
+                                    <div class="flex justify-between items-center">
+                                        <span>Neue Fenster kosten:</span>
+                                        <span id="originalPrice" class="font-bold text-red-600"></span>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                        <span>MaOs 85%-Preis:</span>
+                                        <span id="sparPrice" class="font-bold text-green-600"></span>
+                                    </div>
+                                    <hr class="border-green-300">
+                                    <div class="flex justify-between items-center text-lg font-bold">
+                                        <span>Du sparst 85%:</span>
+                                        <span id="savings" class="text-green-600"></span>
+                                    </div>
+                                    <div class="text-sm text-green-600 mt-2">
+                                        <i class="fas fa-info-circle mr-1"></i>
+                                        Bei 700€ Heizkosten-Ersparnis/Jahr amortisiert sich unser Service in <span id="amortization" class="font-bold"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lead Form -->
+                        <div class="bg-gradient-to-br from-hamburg-blue to-blue-700 p-6 rounded-xl text-white">
+                            <h3 class="text-2xl font-bold mb-6">
+                                <i class="fas fa-gift mr-3"></i>
+                                Kostenlose Hamburg-Beratung!
+                            </h3>
+                            
+                            <form id="leadForm" class="space-y-4">
+                                <div>
+                                    <input 
+                                        type="text" 
+                                        name="name"
+                                        placeholder="Dein vollständiger Name"
+                                        class="w-full px-4 py-3 rounded-lg text-gray-900 focus:ring-2 focus:ring-yellow-400"
+                                        required
+                                    >
+                                </div>
+                                
+                                <div>
+                                    <input 
+                                        type="email" 
+                                        name="email"
+                                        placeholder="Deine E-Mail-Adresse"
+                                        class="w-full px-4 py-3 rounded-lg text-gray-900 focus:ring-2 focus:ring-yellow-400"
+                                        required
+                                    >
+                                </div>
+                                
+                                <div>
+                                    <input 
+                                        type="tel" 
+                                        name="phone"
+                                        placeholder="Deine Telefonnummer"
+                                        class="w-full px-4 py-3 rounded-lg text-gray-900 focus:ring-2 focus:ring-yellow-400"
+                                        required
+                                    >
+                                </div>
+
+                                <div>
+                                    <select name="interest" class="w-full px-4 py-3 rounded-lg text-gray-900 focus:ring-2 focus:ring-yellow-400" required>
+                                        <option value="">Wofür interessierst du dich?</option>
+                                        <option value="85-check">85%-Spar-Check für meine Fenster</option>
+                                        <option value="altbau-analysis">Hamburger Altbau-Analyse</option>
+                                        <option value="health-check">Schimmel-Gesundheitscheck</option>
+                                        <option value="neighbor-consultation">Nachbarn-Beratung (Gruppenrabatt)</option>
+                                    </select>
+                                </div>
+
+                                <button 
+                                    type="submit"
+                                    class="w-full bg-yellow-500 hover:bg-yellow-400 text-black px-6 py-4 rounded-lg text-lg font-bold transition-all duration-300"
+                                >
+                                    <i class="fas fa-calendar-check mr-2"></i>
+                                    Kostenlosen Hamburg-Termin sichern!
+                                </button>
+                            </form>
+
+                            <div class="mt-4 text-sm text-blue-100">
+                                <i class="fas fa-shield-alt mr-2"></i>
+                                <strong>Versprochen:</strong> Keine Verkaufs-Calls, nur ehrliche Beratung!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Guarantee Section -->
+    <section class="bg-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">
+                    Warum <span class="text-hamburg-blue">MaOs Fensterservice Hamburg</span> vertrauen?
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-8 text-center">
+                <!-- Trust Factor 1 -->
+                <div class="p-6">
+                    <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-handshake text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">Ehrlichkeits-Garantie</h3>
+                    <p class="text-gray-600">Wenn deine Fenster wirklich neu müssen, sagen wir es dir ehrlich - auch wenn wir weniger verdienen.</p>
+                </div>
+
+                <!-- Trust Factor 2 -->
+                <div class="p-6">
+                    <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-certificate text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">85%-Erfolgsgarantie</h3>
+                    <p class="text-gray-600">Wenn unser Service nicht die versprochene Energieeffizienz bringt - Geld zurück!</p>
+                </div>
+
+                <!-- Trust Factor 3 -->
+                <div class="p-6">
+                    <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-clock text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">Hamburger Altbau-Experte</h3>
+                    <p class="text-gray-600">Spezialisiert auf Hamburger Altbauten. Meist reicht 1 Tag für die komplette Lösung.</p>
+                </div>
+
+                <!-- Trust Factor 4 -->
+                <div class="p-6">
+                    <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-anchor text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">Hamburg-Vertrauen</h3>
+                    <p class="text-gray-600">Über 200 zufriedene Familien von der Alster bis zur Elbe. Hamburger Qualität!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="bg-gradient-to-r from-maos-orange to-red-600 text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-black mb-6">
+                Werde nicht der Hamburger Nachbar, der zu viel zahlt!
+            </h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">
+                Jeden Tag den du wartest, kostet dich bares Geld. Während deine Hamburger Nachbarn mit der 85%-Spar-Regel sparen, zahlst du weiter drauf.
+            </p>
+
+            <div class="bg-white text-gray-900 rounded-xl p-8 max-w-2xl mx-auto mb-8">
+                <div class="grid grid-cols-3 gap-4 text-center">
+                    <div>
+                        <div class="text-3xl font-bold text-hamburg-blue">3</div>
+                        <div class="text-sm text-gray-600">Jahre Amortisation</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-green-600">85%</div>
+                        <div class="text-sm text-gray-600">Durchschnittliche Ersparnis</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-purple-600">24h</div>
+                        <div class="text-sm text-gray-600">Umsetzungszeit</div>
+                    </div>
+                </div>
+            </div>
+
+            <button onclick="scrollToCalculator()" class="bg-yellow-500 hover:bg-yellow-400 text-black px-12 py-5 rounded-xl text-2xl font-black transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                <i class="fas fa-rocket mr-3"></i>
+                JETZT 85%-Check starten!
+            </button>
+
+            <div class="mt-6 text-lg">
+                <i class="fas fa-clock mr-2"></i>
+                <strong>Nur noch heute:</strong> Kostenlose Hamburg-Beratung ohne Verkaufsdruck
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-400">MaOs Fensterservice</h3>
+                    <p class="text-gray-300 mb-4">
+                        Ehrliche Fensterberatung nach der 85%-Spar-Regel. Wir helfen Hamburger Familien dabei, Tausende zu sparen - ohne Verkaufstricks.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-instagram text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-tiktok text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-youtube text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Hamburg Kontakt</h4>
+                    <div class="space-y-2 text-gray-300">
+                        <div><i class="fas fa-phone mr-2"></i> +49 162 2622986</div>
+                        <div><i class="fas fa-envelope mr-2"></i> info@maos-fensterservice.de</div>
+                        <div><i class="fas fa-map-marker-alt mr-2"></i> Hamburg & Umgebung</div>
+                        <div class="text-sm text-gray-400 mt-2">
+                            <i class="fas fa-anchor mr-1"></i> Von der Alster bis zur Elbe - ganz Hamburg!
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Hamburg-Garantien</h4>
+                    <div class="space-y-2 text-gray-300 text-sm">
+                        <div><i class="fas fa-check text-green-400 mr-2"></i> 85%-Spar-Garantie</div>
+                        <div><i class="fas fa-check text-green-400 mr-2"></i> Altbau-Spezialist</div>
+                        <div><i class="fas fa-check text-green-400 mr-2"></i> Kein Verkaufsdruck</div>
+                        <div><i class="fas fa-check text-green-400 mr-2"></i> Hamburger Referenzen</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 MaOs Fensterservice Hamburg - Marcus Knittel. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll to Calculator
+        function scrollToCalculator() {
+            document.getElementById('calculator').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        }
+
+        // 85% Calculator Function
+        function calculate85Percent() {
+            const input = document.getElementById('fensterPreis');
+            const originalPrice = parseFloat(input.value);
+            
+            if (!originalPrice || originalPrice <= 0) {
+                alert('Bitte geben Sie einen gültigen Preis ein!');
+                return;
+            }
+            
+            // Calculate 85% savings (15% of original price)
+            const sparPrice = Math.round(originalPrice * 0.15);
+            const savings = originalPrice - sparPrice;
+            const amortizationYears = (sparPrice / 700).toFixed(1);
+            
+            // Update results
+            document.getElementById('originalPrice').textContent = originalPrice.toLocaleString('de-DE') + '€';
+            document.getElementById('sparPrice').textContent = sparPrice.toLocaleString('de-DE') + '€';
+            document.getElementById('savings').textContent = savings.toLocaleString('de-DE') + '€';
+            document.getElementById('amortization').textContent = amortizationYears + ' Jahren';
+            
+            // Show results with animation
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.classList.remove('hidden');
+            resultsDiv.scrollIntoView({ behavior: 'smooth' });
+            
+            // Celebration effect for large savings
+            if (savings > 10000) {
+                setTimeout(() => {
+                    const celebration = document.createElement('div');
+                    celebration.innerHTML = '🎉 Wow! Über 10.000€ Ersparnis! 🎉';
+                    celebration.className = 'text-center text-2xl font-bold text-green-600 mt-4 animate-pulse';
+                    resultsDiv.appendChild(celebration);
+                    
+                    setTimeout(() => {
+                        celebration.remove();
+                    }, 3000);
+                }, 500);
+            }
+        }
+
+        // Form Submission
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Simulate form submission (replace with actual endpoint)
+            console.log('Lead data:', data);
+            
+            // Show success message
+            const submitButton = this.querySelector('button[type="submit"]');
+            const originalText = submitButton.innerHTML;
+            
+            submitButton.innerHTML = '<i class="fas fa-check mr-2"></i>Anfrage gesendet!';
+            submitButton.className = submitButton.className.replace('bg-yellow-500 hover:bg-yellow-400', 'bg-green-500');
+            
+            // Reset after 3 seconds
+            setTimeout(() => {
+                submitButton.innerHTML = originalText;
+                submitButton.className = submitButton.className.replace('bg-green-500', 'bg-yellow-500 hover:bg-yellow-400');
+                this.reset();
+            }, 3000);
+        });
+
+        // Enter key support for calculator
+        document.getElementById('fensterPreis').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                calculate85Percent();
+            }
+        });
+    </script>
+</body>
+</html>
