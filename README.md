@@ -167,6 +167,39 @@ In "Social Proof Section":
 - Sparbeträge
 - Bewertungstexte
 
+## 📧 E-Mail Integration Setup
+
+Das Kontaktformular ist bereits vollständig konfiguriert und sendet automatisch E-Mails an:
+- **email@nickkrakow.de**  
+- **info@zoom-internetagentur.com**
+
+### Schnellstart (5 Minuten):
+1. Erstellen Sie einen [EmailJS Account](https://www.emailjs.com/) (kostenlos)
+2. Folgen Sie der detaillierten Anleitung in `EMAILJS_SETUP.md`
+3. Tragen Sie die 3 IDs in `index.html` ein (Zeile ~615)
+4. Fertig! Formulare werden automatisch weitergeleitet
+
+### E-Mail Features:
+- ✅ DSGVO-konforme Übertragung
+- ✅ 85%-Rechner Ergebnisse inklusive
+- ✅ Professionelle HTML-Templates
+- ✅ Automatische Validierung
+- ✅ Benutzerfreundliche Fehlermeldungen
+
+## 🔐 DSGVO & Legal
+
+### Bereits implementiert:
+- ✅ Cookie Consent Banner (granulare Kontrolle)
+- ✅ Impressum (§5 TMG konform)
+- ✅ Datenschutzerklärung (Art. 13 DSGVO)
+- ✅ Google Analytics Integration (datenschutzkonform)
+- ✅ EmailJS Integration (EU-Server, verschlüsselt)
+
+### Setup-Anleitungen:
+- **Google Analytics**: Siehe `GOOGLE_ANALYTICS_SETUP.md`
+- **EmailJS Formular**: Siehe `EMAILJS_SETUP.md`
+- **Cookie System**: Automatisch aktiv, keine Konfiguration nötig
+
 ## 📞 Kontakt
 
 **MaOs Fensterservice Hamburg**
