@@ -566,31 +566,8 @@
             }
         }
 
-        // Form Submission
-        document.getElementById('leadForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(this);
-            const data = Object.fromEntries(formData);
-            
-            // Simulate form submission (replace with actual endpoint)
-            console.log('Lead data:', data);
-            
-            // Show success message
-            const submitButton = this.querySelector('button[type="submit"]');
-            const originalText = submitButton.innerHTML;
-            
-            submitButton.innerHTML = '<i class="fas fa-check mr-2"></i>Anfrage gesendet!';
-            submitButton.className = submitButton.className.replace('bg-yellow-500 hover:bg-yellow-400', 'bg-green-500');
-            
-            // Reset after 3 seconds
-            setTimeout(() => {
-                submitButton.innerHTML = originalText;
-                submitButton.className = submitButton.className.replace('bg-green-500', 'bg-yellow-500 hover:bg-yellow-400');
-                this.reset();
-            }, 3000);
-        });
+        // Form Submission - Now handled by email-handler.js
+        // The EmailHandler will automatically override this with enhanced functionality
 
         // Enter key support for calculator
         document.getElementById('fensterPreis').addEventListener('keypress', function(e) {
@@ -602,6 +579,16 @@
 
     <!-- Cookie Consent -->
     <script src="cookie-consent.js"></script>
+    
+    <!-- EmailJS Integration -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        // EmailJS Configuration - Replace with your actual values from EmailJS dashboard
+        window.EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID';
+        window.EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
+        window.EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+    </script>
+    <script src="email-handler.js"></script>
     
     <!-- Google Analytics Preparation (will be loaded by Cookie Consent if consented) -->
     <script>
