@@ -18,6 +18,9 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
+    <!-- Cookie Consent CSS -->
+    <link rel="stylesheet" href="cookie-consent.css">
+    
     <!-- Custom Config -->
     <script>
         tailwind.config = {
@@ -497,8 +500,19 @@
                 </div>
             </div>
             
-            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 MaOs Fensterservice Hamburg - Marcus Knittel. Alle Rechte vorbehalten.</p>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <div class="flex justify-center space-x-6 mb-4">
+                    <a href="impressum.html" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fas fa-info-circle mr-1"></i>Impressum
+                    </a>
+                    <a href="datenschutz.html" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fas fa-shield-alt mr-1"></i>Datenschutz
+                    </a>
+                    <button onclick="cookieConsent.showSettings()" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fas fa-cookie-bite mr-1"></i>Cookie-Einstellungen
+                    </button>
+                </div>
+                <p class="text-gray-400">&copy; 2024 MaOs Fensterservice Hamburg - Marcus Knittel. Alle Rechte vorbehalten.</p>
             </div>
         </div>
     </footer>
@@ -584,6 +598,15 @@
                 calculate85Percent();
             }
         });
+    </script>
+
+    <!-- Cookie Consent -->
+    <script src="cookie-consent.js"></script>
+    
+    <!-- Google Analytics Preparation (will be loaded by Cookie Consent if consented) -->
+    <script>
+        // Set your Google Analytics Measurement ID here when ready
+        // window.GA_MEASUREMENT_ID = 'G-XXXXXXXXXX';
     </script>
 </body>
 </html>
